@@ -1,0 +1,12 @@
+[package]
+name = "graf_laboratorio5"
+version = "0.1.0"
+edition = "2024"
+description = "Laboratorio 5: relleno de triangulos y comparacion de rasterizadores"
+rust-version = "1.85"
+
+[dependencies]
+raylib = "=5.5.1"
+
+[profile.release]
+debug = 1
